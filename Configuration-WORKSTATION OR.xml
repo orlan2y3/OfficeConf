@@ -1,4 +1,4 @@
-<Configuration ID="bb094089-808b-40bd-95e3-8a1f6c4e139d">
+<Configuration ID="19c10b9c-d2bd-45d8-ab25-fd5e7064e6d9">
   <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
