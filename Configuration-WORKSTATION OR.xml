@@ -1,6 +1,5 @@
-<Configuration ID="ffa019f3-9b09-4123-b9a7-0587f97ce199">
-  <Info Description="Configuration-WORKSTATION (x64 no Teams. With .XLSX, .PPTX and .DOCX file formats)_2026-02-19" />
-  <Add OfficeClientEdition="64" Channel="Current">
+<Configuration ID="8a278716-ead6-4d60-ade9-f7e193dc28c1">
+  <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
       <Language ID="fr-ca" />
@@ -9,12 +8,6 @@
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="Publisher" />
-      <ExcludeApp ID="Teams" />
-    </Product>
-    <Product ID="LanguagePack">
-      <Language ID="en-us" />
-      <Language ID="fr-ca" />
-      <Language ID="MatchPreviousMSI" />
     </Product>
     <Product ID="ProofingTools">
       <Language ID="fr-ca" />
@@ -32,6 +25,6 @@
     <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
     <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
     <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
+	<Display Level="None" AcceptEULA="TRUE" />
   </AppSettings>
-  <Display Level="None" AcceptEULA="TRUE" />
 </Configuration>
